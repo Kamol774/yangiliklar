@@ -3,10 +3,11 @@
 /* 2. GENERAL STYLES */
 /* 3. CONTAINER */
 /* 4. SITE-HEADER  */
-/* 5. EXCHANGE-RATE */
-/* 6. SEARCH-BUTTON */
-/* 7. LANGUAGE-TOGGLER */
-/* 8. TELEGRAM-SUB */
+/* 5. LOGO */
+/* 6. EXCHANGE-RATE */
+/* 7. SEARCH-BUTTON */
+/* 8. LANGUAGE-TOGGLER */
+/* 9. TELEGRAM-SUB */
 
 
 
@@ -118,6 +119,16 @@ body {
   flex-wrap: wrap;
 }
 
+/* LOGO */
+
+.logo {
+  display: flex;
+  padding: 4px 8px;
+  border-radius:5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgb(202, 202, 202, 0.25);
+}
+
 /* EXCHANGE-RATE */
 
 .exchange_rates {
@@ -142,10 +153,18 @@ body {
 /* SEARCH-BUTTON */
 
 .search-button {
-  padding: 8px;
+  padding: 0;
   border: none;
+  margin-right: 22px;
   background-color:#fff;
   border-radius: 5px;
+}
+
+.search-button_wrapper {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* LANGUAGE-TOGGLER */
@@ -153,8 +172,22 @@ body {
 .language-toggler {
   padding: 10px;
   border: none;
+  margin-right: 24px;
   background-color:#fff;
   border-radius: 5px;
+}
+
+.language-toggler_wrapper {
+  display: flex;
+  align-items: center;
+  font-weight: 500;    
+}
+
+.language-toggler_img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
 }
 
 /* TELEGRAM-SUB */
