@@ -4,46 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yangiliklar sayti</title>
-  <link href="/css/normalize.css">
-  <link href="/css/styles.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
+
+
 <body class="page_body">
-
-  <a class="logo" href="index.html">
-    <img class="logo_img" src="/img/logo.svg" alt="yangiliklar24 logo" width="303" height="33">
-  </a>
-
-  <ul class="exchange_rates">
-    <li class="exchange-rates_item">
-      <b class="exchange-rates_icon">&dollar;</b> 
-      <span class="exchange-rates_value">10137.2</span>
-    </li>
-    <li class="exchange-rates_item">
-      <b class="exchange-rates_icon">P</b> 
-      <span class="exchange-rates_value">138.26</span>
-    </li>
-    <li class="exchange-rates_item">
-      <b class="exchange-rates_icon">&euro;</b> 
-      <span class="exchange-rates_value">10988.72</span>
-    </li>
-  </ul>
-
-  <div>
-    <button class="search-button" type="button">
-      <img class="search-button_img" src="/img/icon-magnify.svg" alt="ikonka lupi" width="24" height="24">
-    </button>
-
-    <button class="language-toggler" type="button">
-      <img class="language-toggler_img" src="/img/icon-russia-flag.svg" alt="ikonka lupi" width="20" height="20">
-      <span class="language-toggler_text" >Ru</span>
-    </button>
-    
-    <a class="telegram-sub" href="https://tme.to/khalilov93" target="_blank">
-      <img class="telegram-sub_img" src="/img/icon-telegram.svg" alt="logo messenjer tg" width="20" height="20">
-      <span class="telegram-sub_text" >Podpisatsya</span>
-    </a>
-
-  </div>
-    <script src="/js/main.js"></script>
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header_top">
+        <a class="logo" href="index.html">
+          <img class="logo_img" src="/img/logo.svg" alt="yangiliklar24 logo" width="303" height="33">
+        </a>    
+        <ul class="exchange_rates">
+          <li class="exchange-rates_item">
+            <b class="exchange-rates_icon">&dollar;</b>
+            <span class="exchange-rates_value">10137.2</span>
+          </li>
+          <li class="exchange-rates_item">
+            <b class="exchange-rates_icon">P</b>
+            <span class="exchange-rates_value">138.26</span>
+          </li>
+          <li class="exchange-rates_item">
+            <b class="exchange-rates_icon">&euro;</b>
+            <span class="exchange-rates_value">10988.72</span>
+          </li>
+        </ul>
+        <div class="site-header_actions">
+          <button class="search-button" type="button">
+            <img class="search-button_img" src="/img/icon-magnify.svg" alt="ikonka lupi" width="24" height="24">
+          </button>
+          <button class="language-toggler" type="button">
+            <img class="language-toggler_img" src="/img/icon-russia-flag.svg" alt="ikonka lupi" width="20" height="20">
+            <span class="language-toggler_text" >Ru</span>
+          </button>
+        
+          <a class="telegram-sub" href="https://tme.to/khalilov93" target="_blank">
+            <img class="telegram-sub_img" src="/img/icon-telegram.svg" alt="logo messenjer tg" width="20" height="20">
+            <span class="telegram-sub_text" >Подписатся</span>
+          </a>
+        </div> <!-- site-header_actions -->
+      </div> <!-- site-header_top -->
+    </div>  <!-- container ends -->
+  </header>
+  
+  
+  <script src="/js/main.js"></script>
 </body>
 </html>
