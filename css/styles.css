@@ -88,6 +88,12 @@ body {
   line-height: 18px;
   color: #434343;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 *:focus {
   outline: 0;
   box-shadow:0 0 0 4px rgba(41, 80, 147, 0.4);
@@ -263,7 +269,6 @@ body {
   margin: 5px 12px;
 }
 
-
 .sitenav_link {
   display: block;
   font-size: 19px;
@@ -282,4 +287,32 @@ body {
 
 .top-banner_link {
   display: flex;
+}
+
+/* SITE-FOOTER */
+.site-footer {
+  padding: 18px 0;
+  background-color: #295093;
+  color:#fff;
+  font-size: 14px;
+  line-height: 17px; 
+}
+
+.site-footer_top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.site-footer_logo {
+  display: flex;
+  margin-right: auto;
+  background-color: #133C82;
+  border-radius: 5px;
+  padding: 10px;
+} 
+
+.site-footer_sub-text {
+  margin: 0;
+  margin-right: 17px;
 }
