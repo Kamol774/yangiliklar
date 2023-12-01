@@ -10,6 +10,8 @@
 /* 9. TELEGRAM-SUB */
 /* 10. SITE-NAV */
 /* 11. TOP-BANNER */
+/* MAIN CONTENT */
+/* SITE-FOOTER */
 
 
 
@@ -82,6 +84,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   font-family: "Rubik", "Arial", sans-serif;
   font-size: 15px;
@@ -301,6 +305,12 @@ img {
 .top-banner_link {
   display: flex;
 }
+
+/* MAIN CONTENT */
+.main-content {
+  flex-grow: 1;
+}
+
 
 /* SITE-FOOTER */
 .site-footer {
