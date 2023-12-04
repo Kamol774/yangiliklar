@@ -635,7 +635,7 @@ img {
   text-align: center;
 }
 
-.news-list_more-button {
+.button {
   padding: 10px 32px;
   border: none;
   border-radius:5px;
@@ -650,7 +650,7 @@ img {
   transition: background-color 0.3s ease;
 }
 
-.news-list_more-button:hover {
+.button:hover {
   background-color: rgba(41, 80, 147, 0.8); 
 }
 
