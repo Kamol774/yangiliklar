@@ -790,6 +790,42 @@ overflow: hidden;
   display: block;
 }
 
+/* SITE-APP */
+
+.site-app {
+  display: flex;
+  align-items:center;
+  padding: 65px 20px 65px 245px;
+  background: #f6f6f9 url("/img/site-app-bg.png") no-repeat 20px bottom;
+}
+
+.site-app_heading {
+  margin-top: 0;
+  margin-bottom: 10px; 
+  font-style: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  color:#295093;
+}
+
+.site-app_body {
+  width: 530px; 
+  margin: auto;
+}
+
+.site-app_text  {
+  font-style: 18px;
+  line-height: 21px;
+  font-weight: normal;
+  color:#333333;
+}
+
+.site-app_link {
+  display: flex;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
 /* SITE-FOOTER */
 .site-footer {
   padding: 18px 0;
