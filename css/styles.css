@@ -297,7 +297,7 @@ img {
   transition: color 0.3s ease;
 }
 
-.sitenav_link:hover {
+.sitenav_link:hover, .sitenav_item--active .sitenav_link {
   color: #295091;
 }
 
