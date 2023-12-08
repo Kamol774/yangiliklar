@@ -730,6 +730,11 @@ overflow: hidden;
   background-color: rgba(41, 80, 147, 0.8); 
 }
 
+.button--block  {
+  display: block;
+  width: 100%;
+}
+
 .popular-news_banner {
   width: 386px;
 }
@@ -985,4 +990,137 @@ overflow: hidden;
 .article_tags-link {
   color:#28508E;
   text-decoration: none;
+}
+
+/* FORM-INFO-WRAPPER */
+.form-info_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+
+/* CONTACT-FORM */
+.contact-form  {
+  width: calc(600/1240*100%);
+}
+
+.contact-form_group-captcha {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-form_input, 
+.contact-form_textarea, 
+.contact-form_file-input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 2px solid rgba(40, 81, 147, 0.3);
+  border-radius: 5px;
+  background-color:rgba(241, 241, 241, 0.3)
+}
+
+.contact-form_file-input-label {
+  display: flex;
+  align-items:center;
+  color:#888; 
+}
+
+.contact-form_file-icon {
+  margin-left: 11px;
+}
+
+.contact-form_textarea {
+  min-height: 307px;
+  resize: vertical;
+}
+
+.contact-form_group {
+  margin: 20px;
+}
+
+.contact-form_group--small {
+  width: 220px;
+}
+
+.contact-form_input:focus, 
+.contact-form_textarea:focus,
+.contact-form_file-input:focus {
+  border-color: #285193;
+  box-shadow:none;
+}
+
+.contact-form_captcha-img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateX(120%) translateY(-50%);
+}
+
+/* CONTACT-INFO */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  width: calc(510 / 1240 * 100%);
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #bcc3cd;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow:-12px 8px 9px rgba(57, 57, 57, 0.25);
+}
+
+.contact-info_logo {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.contact-info_group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.contact-info_group:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.contact-info_heading, 
+.contact-info_value {
+  margin: 0;
+} 
+.contact-info_socials {
+  display: flex;
+  align-items:center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;  
+}
+
+.contact-info_item {
+  margin-left: 13px;
+}
+
+.contact-info_socials-link {
+  display: flex;
+}
+
+.contact-info_socials-link:hover {
+  opacity: 0.8;
+}
+
+.contact-info_value {
+  /* align-self: end; */
+}
+
+
+.contact-info_socials-img {
+  /* background-color:#000 */
+}
+
+.contact-info_sub {
+  background-color: #575757;
+  border: 1px solid #000;
 }

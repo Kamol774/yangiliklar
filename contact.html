@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article title -- Yangiliklar sayti -- News</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+
+<body class="page_body">
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <!-- SITE-HEADER-TOP -->
+      <div class="site-header_top">
+        <a class="logo" href="index.html">
+          <img class="logo_img" src="/img/logo.svg" alt="yangiliklar24 logo" width="303" height="33">
+        </a>    
+        <ul class="exchange_rates">
+          <li class="exchange-rates_item">
+            <b class="exchange-rates_icon">&dollar;</b>
+            <span class="exchange-rates_value">10137.2</span>
+          </li>
+          <li class="exchange-rates_item">
+            <b class="exchange-rates_icon">P</b>
+            <span class="exchange-rates_value">138.26</span>
+          </li>
+          <li class="exchange-rates_item">
+            <b class="exchange-rates_icon">&euro;</b>
+            <span class="exchange-rates_value">10988.72</span>
+          </li>
+        </ul>
+        <div class="site-header_actions">
+          <button class="search-button" type="button">
+            <span class="search-button_wrapper">
+              <img class="search-button_img" src="/img/icon-magnify.svg" alt="ikonka lupi" width="24" height="24">
+            </span>
+          </button>
+          <button class="language-toggler" type="button">
+            <span class="language-toggler_wrapper">
+              <img class="language-toggler_img" src="/img/icon-russia-flag.svg" alt="ikonka lupi" width="20" height="20">
+              <span class="language-toggler_text" >Ру</span>
+            </span>
+          </button>
+        
+          <a class="telegram-sub telegram-sub_dark" href="https://tme.to/khalilov93" target="_blank">
+            <img class="telegram-sub_img" src="/img/icon-telegram.svg" alt="logo messenjer tg" width="20" height="20">
+            <span class="telegram-sub_text" >Подписатся</span>
+          </a>
+        </div> <!-- site-header_actions -->
+      </div> <!-- site-header_top -->
+    <!-- SITE-NAV -->
+      <nav class="sitenav">
+        <ul class="sitenav_list">
+          <li class="sitenav_item" ><a class="sitenav_link" href="list.html">Узбекистан</a></li>
+          <li class="sitenav_item--active" ><a class="sitenav_link" href="list.html">Мир</a></li>
+          <li class="sitenav_item" ><a class="sitenav_link" href="list.html">Экономика</a></li>
+          <li class="sitenav_item" ><a class="sitenav_link" href="list.html">Политика</a></li>
+          <li class="sitenav_item" ><a class="sitenav_link" href="list.html">Общество</a></li>
+          <li class="sitenav_item" ><a class="sitenav_link" href="list.html">Технологии</a></li>
+          <li class="sitenav_item" ><a class="sitenav_link" href="list.html">Спорт</a></li>
+          <li class="sitenav_item" ><a class="sitenav_link" href="list.html">Культура</a></li>
+          <li class="sitenav_item" ><a class="sitenav_link" href="list.html">Происшествия</a></li>
+          <li class="sitenav_item" ><a class="sitenav_link" href="list.html">Туризм</a></li>
+        </ul>
+      </nav>
+
+      <!-- TOP BANNER -->
+      <aside class="top-banner">
+        <a class="top-banner_link" href="#" target="_blank">
+          <img class="top-banner_img" src="/img/nrg-banner.jpg" srcset="/img/nrg-banner.jpg 1x, /img/nrg-banner@2x.jpg 2x" alt="NRG company banner" width="1200" height="99">
+        </a>
+      </aside>
+    </div>  <!-- container ends -->
+  </header>
+  
+<!-- MAIN CONTENT -->
+  <main class="main-content">
+    <div class="container">
+      <h1 class="main-content_page-title">Napishite nam</h1>
+      <div class="form-info_wrapper">
+        <!-- CONTACT-FORM -->
+        <div class="contact-form">
+          <form class="contact-form_form" action="https://echo.htmlacademy.ru" method="post">
+            <div class="contact-form_group">
+              <input class="contact-form_input" aria-label="Name" type="text" name="name" placeholder="Name"> 
+            </div>
+            <div class="contact-form_group">
+              <input class="contact-form_input" aria-label="Email" type="email" name="email" placeholder="Email"> 
+            </div>
+            <div class="contact-form_group">
+              <input class="contact-form_input" aria-label="Phone number" type="number" name="phone-number" placeholder="Phone number"> 
+            </div>
+            <div class="contact-form_group">
+              <input class="contact-form_input" aria-label="Topic" type="text" name="subject" placeholder="Topic"> 
+            </div>
+            <div class="contact-form_group">
+              <textarea class="contact-form_textarea" aria-label="Text" name="text" raws="7" placeholder="Text" rows="7" required></textarea> 
+            </div>
+            <div class="contact-form_group contact-form_group--small">
+              <label class="contact-form_file-input">
+                <input class="visually-hidden" type="file">
+                <span class="contact-form_file-input-label">
+                  Input file
+                  <img class="contact-form_file-icon" src="/img/icon-file.svg" alt="File icon">
+                </span>
+              </label>
+            </div>
+            <div class="contact-form_group contact-form_group-captcha contact-form_group--small">
+                <input class="contact-form_input" type="text" name="captcha" placeholder="Kod" required>
+                <img class="contact-form_captcha-img" src="/img/captcha.jpg" srcset="/img/captcha.jpg 1x, /img/captcha@2x.jpg 2x" alt="captcha">
+            </div>
+            <div class="contact-form_group contact-form_group--small">
+              <button class="button button--block" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- CONTACT-INFO -->
+        <section class="contact-info">
+          <h2 class="visually-hidden">Contact info</h2>
+          <img class="contact-info_logo" src="/img/logo.svg" alt="logo">
+          <div class="contact-info_group">
+            <p class="contact-info_heading">Email:</p>
+            <p class="contact-info_value">x.k.1993@gmail.com</p>
+          </div>
+          <div class="contact-info_group">
+            <p class="contact-info_heading">Social networks:</p>
+            <ul class="contact-info_socials">
+              <li class="contact-info_item">
+                <a href="https://tme.to/khalilov93" class="contact-info_socials_link" target="_blank">
+                  <img class="contact-info_socials-img" src="/img/icon-facebook.svg" alt="Facebook icon" > 
+              </a>
+            </li>
+              <li class="contact-info_item">
+                <a href="https://tme.to/khalilov93" class="contact-info_socials_link" target="_blank">
+                  <img class="contact-info_socials-img" src="/img/icon-twitter.svg" alt="Twit icon" > 
+                </a>
+              </li>
+              <li class="contact-info_item">
+                <a href="https://tme.to/khalilov93" class="contact-info_socials_link" target="_blank">
+                  <img class="contact-info_socials-img" src="/img/icon-odnoklassniki.svg" alt="OK icon"> 
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-info_group">
+            <p class="contact-info_heading">Telegram chanel:</p>
+            <a class="telegram-sub telegram-sub_dark" href="https://tme.to/khalilov93" target="_blank">
+              <img class="telegram-sub_img" src="/img/icon-telegram.svg" alt="logo messenjer tg" width="20" height="20">
+              <span class="telegram-sub_text" >Подписатся</span>
+            </a>
+          </div>
+          <div class="contact-info_group">
+            <p class="contact-info_heading">Mobile application:</p>
+            <a class="telegram-sub telegram-sub_dark" href="https://tme.to/khalilov93" target="_blank">
+              <img class="telegram-sub_img" src="/img/icon-telegram.svg" alt="logo messenjer tg" width="20" height="20">
+              <span class="telegram-sub_text" >Подписатся</span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+<!-- SITE-FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer_top">
+        <a class="site-footer_logo" href="#">
+          <img class="site-footer_logo-img" src="/img/logo-white.svg" alt="yangiliklar24 logo white" width="173" height="21">
+        </a>
+        <p class="site-footer_sub-text">
+          Подписывайтесь на наш канал в Телеграм и будьте всегда в курсе самых последних новостей:</p>
+        <a class="telegram-sub telegram-sub_white" href="https://tme.to/khalilov93" target="_blank">
+          <img class="telegram-sub_img" src="/img/icon-telegram-blue.svg" alt="logo messenjer tg" width="20" height="20">
+          <span class="telegram-sub_text" >Подписатся</span>
+        </a>
+      </div>
+
+      <hr class="site-footer_devider">
+       
+      <div class="site-footer_bottom">
+        <section class="site-footer_about">
+          <h2 class="site-footer_heading">О сайте</h2>
+          <p class="site-footer_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore tempora voluptatem modi facere quos aspernatur aliquam, dolore beatae saepe eligendi animi, optio consequatur enim deserunt dolor, sit sint architecto nam</p>
+        </section>
+        <ul class="site-footer_nav">
+          <li class="site-footer_nav-item"><a class="site-footer_nav-link" href="#">Информация о сайте</a></li>
+          <li class="site-footer_nav-item"><a class="site-footer_nav-link" href="#">Напишите нам</a></li>
+          <li class="site-footer_nav-item"><a class="site-footer_nav-link" href="#">Реклама</a></li>
+          <li class="site-footer_nav-item"><a class="site-footer_nav-link" href="#">Прислать новост</a></li>
+          <li class="site-footer_nav-item"><a class="site-footer_nav-link" href="#">Исползавания материалов</a></li>
+          <li class="site-footer_nav-item"><a class="site-footer_nav-link" href="#">Темы дня</a></li>
+          <li class="site-footer_nav-item"><a class="site-footer_nav-link" href="#">Наша команда</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
