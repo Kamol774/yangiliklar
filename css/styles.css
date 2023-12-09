@@ -1111,16 +1111,41 @@ overflow: hidden;
   opacity: 0.8;
 }
 
-.contact-info_value {
-  /* align-self: end; */
-}
-
-
-.contact-info_socials-img {
-  /* background-color:#000 */
-}
-
 .contact-info_sub {
-  background-color: #575757;
   border: 1px solid #000;
+}
+
+.tg-sub {
+  display: flex;
+  align-items:center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.tg-sub_dark {
+  color:#fff;
+  background-color: #285193;
+}
+
+.tg-sub_img {
+  margin-right: 7px;
+}
+
+.tg-sub_text {
+  font-weight: bold;
+  align-items: center;
+}
+
+.contact-app_link {
+  display: flex;
+  border-radius: 5px;
+  margin-left: 20px;
+  align-self:flex-end;
+}
+
+.contact-app {
+  display: flex;
+  justify-content:center;   
 }
